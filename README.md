@@ -1,4 +1,3 @@
-
 # 📱 React Phone catalog 📱
 
 <p>A brief description of the project
@@ -7,9 +6,10 @@ Implement landing page according to Figma design</p>
 # [Design](https://www.figma.com/file/uEetgWenSRxk9jgiym6Yzp/Phone-catalog-redesign?node-id=1%3A2)
 
 ## Description
+
 <p>Simple responsive internet-shop with favorites, cart, search, slider. Done with React Context, router-dom, axios etc. I made a simple node js backend which always returns the same data, provided for the catalog.</p>
 
-# [Demolink](https://pokhvalenkos.github.io/Phone-catalog/)
+# [Demolink](https://pokhvalenkos.github.io/phone-catalog/)
 
 ## 📚 Technologies Used
 
@@ -46,18 +46,24 @@ Implement landing page according to Figma design</p>
 
 ### Pre-requirements
 
-You need [```Node```](https://nodejs.org/es/) previously installed in your computer.
+You need [`Node`](https://nodejs.org/es/) previously installed in your computer.
 To start using this project, clone this repo to a new directory.
 
 ### ➡️ Node
+
 You have to go to server and run npm install in order to install the necesary dependencies.
+
 #### - Server
+
 General Environment variables (server side):
+
 > ```console
 > PORT=5005
 > ORIGIN=http://localhost:3000
 > ```
-Console:
+>
+> Console:
+>
 > ```console
 > $ cd server
 > $ npm install
@@ -65,26 +71,30 @@ Console:
 
 Now you need to do the same thing on the client side.
 Environment variables:
+
 > ```console
 > REACT_APP_SERVER_URL=http://localhost:5005
 > ```
 
 Console:
+
 > ```console
 > $ cd client
 > $ npm install
 > ```
 
-Once you have installed the dependencies, you are ready to run the app with ```npm start```. Like above, we need to do it both in server and client sides.
+Once you have installed the dependencies, you are ready to run the app with `npm start`. Like above, we need to do it both in server and client sides.
 
 Server Side:
+
 > ```console
 > $ cd server
 > $ npm run dev
 > ```
 
 Client side:
->  ```console
+
+> ```console
 > $ cd client
 > $ npm start
 > ```
